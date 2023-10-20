@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta</title>
+    <style>
+         body{
+            background-color: black;
+            color: brown;
+            text-align: center;
+        }
+        .for{
+            background-color: black;
+            color: red;
+            text-align: left;
+            padding-left: 25px;
+        }
+        .while{
+            background-color: red;
+            color: yellow;
+            text-align: center;
+        }
+        .dwhile{
+            background-color: yellow;
+            color: black;
+            text-align: right;
+            padding-right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <main class="for">
+    <script>
+
+        for (i=1;i<16;i++) {
+          document.write (i +" For" +"<br>");    
+        }
+    </script>
+</main>
+<hr>
+<main class="while">
+    <script>
+     var i=1;
+        while (i<16){
+        document.write (i +" While" +"<br>");     
+    i++;}     
+    </script>
+</main>  
+<hr>
+<main class="dwhile">
+    <script>
+    var i=1;
+    do{
+        document.write (i +" Do While" +"<br>");
+        i++;}
+        while (i<16);
+    </script>
+</main>   
+</body>
+</html>
